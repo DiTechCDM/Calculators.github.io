@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+	<!-- Meta Tags -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Steel Plate Weight Calculator and Sheet/ Coil/ Strips Dimensions chart</title>
+
+
+</head>
+
+<body class="home-v2" id="id-155" data-new-gr-c-s-check-loaded="14.991.0" data-gr-ext-installed="">
+	<!-- Blog Section Start -->
+	<div class="blog-classic-sec pt-100 pb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="service-details-desc">
+						<div class="service-details-text">
+							<section id="content-wrap" class="clearfix">
+
+								<div id="main-content" class="clearfix">
+									<!-- Content -->
+									<div class="block block-1 t50 m100      ">
+										<div class="column w50 " style="background-image:url();">
+											<form id="cw" class="forms calculator" action="#" method="POST">
+												<h2>Coil Weight</h2>
+												<div class="contact-field" role="group">
+													<div class="input-group w33">
+														<label>OD (inches)</label>
+														<input id="cw-od" type="number" value="" name="cw-od">
+													</div>
+													<div class="input-group w33">
+														<label>ID (inches)</label>
+														<input id="cw-id" type="number" value="" name="cw-id">
+													</div>
+													<div class="input-group w33">
+														<label>Width (inches)</label>
+														<input id="cw-width" type="number" step="0.001" value=""
+															name="cw-width">
+													</div>
+													<div class="input-group w100">
+														<input type="submit" value="Calculate" name="cw-submit"
+															class="submit button red-btn">
+													</div>
+													<div class="input-group w100 text-center">
+														<div class="result">Weight = <span id="cw-result"></span> lbs
+														</div>
+														<button class="clear-calculator">Reset</button>
+													</div>
+												</div>
+											</form>
+										</div>
+										<div class="column w50 " style="background-image:url();">
+											<form id="cwc" class="forms calculator" action="#" method="POST">
+												<h2>Coil Weight Per Circle</h2>
+												<div class="contact-field" role="group">
+													<div class="input-group w50">
+														<label>Diameter (inches)</label>
+														<input id="cwc-diameter" type="number" step="0.01" value=""
+															name="cwc-diameter">
+													</div>
+													<div class="input-group w50">
+														<label>Gauge (inches)</label>
+														<input id="cwc-gauge" type="number" step="0.0001" value=""
+															name="cwc-gauge">
+													</div>
+													<div class="input-group w100">
+														<input type="submit" value="Calculate" name="cwc-submit"
+															class="submit button red-btn">
+													</div>
+													<div class="input-group w100 text-center">
+														<div class="result">Weight = <span id="cwc-result"></span> lbs
+														</div>
+														<button class="clear-calculator">Reset</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+
+									<div class="block block-2 t50 m100 has-bg light-gray-bg full    ">
+										<div class="column w50 " style="background-image:url();">
+											<form id="mc" class="forms calculator" action="#" method="POST">
+												<h2>Maximum Coil OD</h2>
+												<div class="contact-field" role="group">
+													<div class="input-group w33">
+														<label>ID (inches)</label>
+														<input id="mc-id" type="number" value="" name="mc-id">
+													</div>
+													<div class="input-group w33">
+														<label>Width (inches)</label>
+														<input id="mc-width" type="number" step="0.001" value=""
+															name="mc-width">
+													</div>
+													<div class="input-group w33">
+														<label>Weight (lbs)</label>
+														<input id="mc-weight" type="number" value="" name="mc-weight">
+													</div>
+													<div class="input-group w100">
+														<input type="submit" value="Calculate" name="mc-submit"
+															class="submit button red-btn">
+													</div>
+													<div class="input-group w100 text-center">
+														<div class="result">OD = <span id="mc-result-1"></span> in</div>
+														<div class="result">PIW = <span id="mc-result-2"></span> lbs/in
+															of width </div>
+														<button class="clear-calculator">Reset</button>
+													</div>
+												</div>
+											</form>
+										</div>
+										<div class="column w50 " style="background-image:url();">
+											<form id="fsw" class="forms calculator" action="#" method="POST">
+												<h2>Flat Sheet Weight</h2>
+												<div class="contact-field" role="group">
+													<div class="input-group w33">
+														<label>Thickness (inches)</label>
+														<input id="fsw-thickness" type="number" step="0.0001" value=""
+															name="fsw-thickness">
+													</div>
+													<div class="input-group w33">
+														<label>Width (inches)</label>
+														<input id="fsw-width" type="number" step="0.001" value=""
+															name="fsw-width">
+													</div>
+													<div class="input-group w33">
+														<label>Length (inches)</label>
+														<input id="fsw-length" type="number" step="0.01" value=""
+															name="fsw-length">
+													</div>
+													<div class="input-group w100">
+														<input type="submit" value="Calculate" name="fsw-submit"
+															class="submit button red-btn">
+													</div>
+													<div class="input-group w100 text-center">
+														<div class="result">Weight = <span id="fsw-result"></span> lbs
+														</div>
+														<button class="clear-calculator">Reset</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+
+									<div class="block block-3 t50 m100      ">
+										<div class="column w50 " style="background-image:url();">
+											<form id="clf" class="forms calculator" action="#" method="POST">
+												<h2>Coil Lineal Feet</h2>
+												<div class="contact-field" role="group">
+													<div class="input-group w33">
+														<label>Thickness (inches)</label>
+														<input id="clf-thickness" type="number" step="0.0001" value=""
+															name="clf-thickness">
+													</div>
+													<div class="input-group w33">
+														<label>Width (inches)</label>
+														<input id="clf-width" type="number" step="0.001" value=""
+															name="clf-width">
+													</div>
+													<div class="input-group w33">
+														<label>Weight (lbs)</label>
+														<input id="clf-weight" type="number" value="" name="clf-weight">
+													</div>
+													<div class="input-group w100">
+														<input type="submit" value="Calculate" name="clf-submit"
+															class="submit button red-btn">
+													</div>
+													<div class="input-group w100 text-center">
+														<div class="result">Feet = <span id="clf-result"></span> ft
+														</div>
+														<button class="clear-calculator">Reset</button>
+													</div>
+												</div>
+											</form>
+										</div>
+										<div class="column w50 " style="background-image:url();">
+											<form id="cfw" class="forms calculator" action="#" method="POST">
+												<h2>Coil Feet to Weight</h2>
+												<div class="contact-field" role="group">
+													<div class="input-group w33">
+														<label>Thickness (inches)</label>
+														<input id="cfw-thickness" type="number" step="0.0001" value=""
+															name="cfw-thickness">
+													</div>
+													<div class="input-group w33">
+														<label>Width (inches)</label>
+														<input id="cfw-width" type="number" step="0.001" value=""
+															name="cfw-width">
+													</div>
+													<div class="input-group w33">
+														<label>Length (feet)</label>
+														<input id="cfw-length" type="number" value="" name="cfw-length">
+													</div>
+													<div class="input-group w100">
+														<input type="submit" value="Calculate" name="cfw-submit"
+															class="submit button red-btn">
+
+													</div>
+													<div class="input-group w100 text-center">
+														<div class="result">Weight = <span id="cfw-result"></span> lbs
+														</div>
+														<button class="clear-calculator">Reset</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+									<!-- End Content -->
+								</div>
+								<!--/main-content-->
+
+							</section>
+							<div class="row">
+								<div class="col-md-4 col-sm-6">
+									<div class="media">
+										<div class="single-post">
+											<div class="blog-text">
+												<div class="post-info"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+
+						</div>
+					</div>
+					<div class="service-details-text"></div>
+				</div>
+				<!-- xxxxxx -->
+			</div>
+		</div>
+	</div>
+	<!-- Blog Section End -->
+	
+	<script src="./jquery-2.2.4.min.js"></script>
+
+
+	<script src="./jquery.hoverIntent.minified.js.download"></script>
+	<script src="./jRespond.min.js.download"></script>
+	<script src="./svg-convert.js.download"></script>
+	<script src="./scripts.js.download"></script>
+
+</body>
+
+</html>
